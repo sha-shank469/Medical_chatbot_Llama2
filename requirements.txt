@@ -1,0 +1,13 @@
+#it's a quantize model which we are using because we are going to run on cpu
+ctransformers==0.2.5
+#we will be generating embedding of our text chunks so we are using one free embedding model.
+sentence-transformers==2.2.2
+#i want to integrate pinecone database
+pinecone-client
+#
+langchain==0.0.225
+#for front-end
+flask
+pypdf
+python-dotenv
+-e . #it will look for setup.py file open it and install everything
